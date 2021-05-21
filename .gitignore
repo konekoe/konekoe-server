@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# exclude object files
+*.o
+
+# exclude executable
+test_client
+test_client_dev
+
+#config
+.env
+
+#logs
+log/
+
+#misc
+notes/
+localmongopass
+
