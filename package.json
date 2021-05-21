@@ -1,0 +1,28 @@
+{
+  "name": "konekoe-server",
+  "version": "1.6.0",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "konekoe-database": "git+ssh://git@version.aalto.fi:konekoe/konekoe-database.git",
+    "konekoe-server-log": "git+ssh://git@version.aalto.fi:konekoe/konekoe-server-log.git",
+    "konekoe-server-utils": "git+ssh://git@version.aalto.fi:konekoe/konekoe-server-utils.git",
+    "ws": "^7.0.1"
+  },
+  "scripts": {
+    "start": "node server",
+    "start_nodemon": "nodemon server",
+    "start_container": "./start-container.sh"
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
